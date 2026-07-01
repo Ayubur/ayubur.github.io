@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "name": "AYUBUR RAHAMAN",
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "Skills", "href": "#skills" },
+      { "label": "Work", "href": "#projects" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "label": "// hello",
+    "name": "Md. Ayubur Rahaman",
+    "role": "Senior Software Engineer",
+    "statement": "I build scalable full-stack web and mobile applications with Next.js and Node.js - from backend APIs and database design to cross-platform apps with React Native.",
+    "primaryCta": { "label": "View work", "href": "#projects" },
+    "secondaryCta": { "label": "Contact", "href": "#contact" },
+    "location": "Dhaka, Bangladesh",
+    "year": "2026"
+  },
+  "about": {
+    "label": "// about",
+    "photo": "assets/profile/profile.jpg",
+    "paragraphs": [
+      "I'm a software engineer based in Dhaka, currently working as a Software Engineer II at ShellBeeHaken Ltd. Most of my work sits across the full stack — Next.js and Node.js on the web, React Native on mobile, and PostgreSQL or MongoDB underneath.",
+      "I gravitate toward problems that touch the whole system: designing an API, tuning the queries behind it, and making sure the real-time or event-driven pieces (Lambda, WebSockets, Redis) hold up under load.",
+      "I care about reusable architecture and code that's easy for the next engineer to pick up — a habit built over several years moving between backend, frontend, and mobile on the same projects."
+    ]
+  },
+  "skills": {
+    "label": "// skills",
+    "categories": [
+      { "name": "Languages", "items": ["JavaScript", "TypeScript", "SQL"] },
+      { "name": "Frameworks", "items": ["React.js", "Next.js", "Node.js", "Nest.js", "React Native"] },
+      { "name": "Data & Infra", "items": ["PostgreSQL", "MongoDB", "AWS (Lambda, API Gateway, S3, EC2)", "Docker"] },
+      { "name": "Focus areas", "items": ["Full-stack web apps", "Cross-platform mobile", "API design"] }
+    ]
+  },
+  "projects": {
+    "label": "// projects",
+    "items": [
+      {
+        "name": "FAM Sports Nutrition Learning Platform",
+        "year": "2024 — 2026",
+        "photo": "",
+        "description": "An interactive learning platform training professional sports nutrition advisors through structured courses and one-on-one consultations, across web and mobile.",
+        "outcomes": [
+          "Built the admin and customer-facing web apps with Next.js and Node.js, plus a cross-platform mobile app with React Native for iOS and Android.",
+          "Shipped an AI-powered chat feature and a consultation module connecting users with professional nutritionists.",
+          "Implemented multiple Stripe payment and subscription flows for platform access."
+        ],
+        "tech": ["Next.js", "Node.js", "React Native", "Stripe"],
+        "link": "https://apps.apple.com/jp/app/fam-sports-and-nutrition-lab/id6745589509"
+      },
+      {
+        "name": "KriyaKarak",
+        "year": "2024",
+        "photo": "",
+        "description": "A secure platform unifying service providers from across Bangladesh onto a single digital marketplace.",
+        "outcomes": [
+          "Owned the Expert Portfolio Module end-to-end — frontend architecture, UI, and feature integration.",
+          "Improved service scheduling and booking workflows in the Booking Module."
+        ],
+        "tech": ["Next.js", "Node.js"],
+        "link": "https://kriyakarak.com/"
+      }
+    ]
+  },
+  "experience": {
+    "label": "// experience",
+    "items": [
+      {
+        "range": "2022 — Now",
+        "role": "Software Engineer II",
+        "company": "ShellBeeHaken Ltd.",
+        "impact": [
+          "Built scalable full-stack applications with Next.js, Node.js, MongoDB, and PostgreSQL, including complex aggregation pipelines and query optimization.",
+          "Designed event-driven workflows using AWS Lambda, WebSockets, and Redis for real-time features and background processing.",
+          "Developed cross-platform mobile apps with React Native and containerized services with Docker for consistent deployments."
+        ]
+      },
+      {
+        "range": "2020 — 2022",
+        "role": "Software Engineer",
+        "company": "Gononet Limited",
+        "impact": [
+          "Designed and built the UI for the organization's ERP system in Angular, and its e-commerce platform in React.js and Next.js.",
+          "Built a cross-platform mobile application with React Native.",
+          "Developed backend services in PHP with optimized PostgreSQL databases and queries."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "label": "// education",
+    "items": [
+      {
+        "range": "2014 — 2017",
+        "degree": "BSc in Computer Science & Engineering",
+        "school": "University of Chittagong"
+      }
+    ]
+  },
+  "contact": {
+    "label": "// contact",
+    "statement": "Open to senior full-stack engineering roles.",
+    "email": "ayubur.rahaman161@gmail.com",
+    "links": [
+      { "label": "GitHub", "href": "https://github.com/Ayubur" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/ayubur" },
+      { "label": "Résumé (PDF)", "href": "https://drive.google.com/file/d/1hgGPmcw7yVvU34VR8k1IamSU3dDFl9yj/view?usp=sharing" }
+    ]
+  },
+  "footer": {
+    "name": "Ayubur Rahaman"
+  }
+}
