@@ -11,8 +11,8 @@
   "hero": {
     "label": "// hello",
     "name": "Md. Ayubur Rahaman",
-    "role": "Senior Software Engineer",
-    "statement": "I build scalable full-stack web and mobile applications with Next.js and Node.js - from backend APIs and database design to cross-platform apps with React Native.",
+    "role": "Software Engineer",
+    "statement": "I build high-performance web, mobile, and AI-powered applications focused on scalability, seamless user experiences, and intelligent automation.",
     "primaryCta": { "label": "View work", "href": "#projects" },
     "secondaryCta": { "label": "Contact", "href": "#contact" },
     "location": "Dhaka, Bangladesh",
@@ -22,18 +22,50 @@
     "label": "// about",
     "photo": "assets/profile/profile.jpg",
     "paragraphs": [
-      "I'm a software engineer based in Dhaka, currently working as a Software Engineer II at ShellBeeHaken Ltd. Most of my work sits across the full stack — Next.js and Node.js on the web, React Native on mobile, and PostgreSQL or MongoDB underneath.",
-      "I gravitate toward problems that touch the whole system: designing an API, tuning the queries behind it, and making sure the real-time or event-driven pieces (Lambda, WebSockets, Redis) hold up under load.",
-      "I care about reusable architecture and code that's easy for the next engineer to pick up — a habit built over several years moving between backend, frontend, and mobile on the same projects."
+      "I'm a Full Stack Software Engineer based in Dhaka, Bangladesh, currently working as a Software Engineer II at ShellBeeHaken Ltd. I specialize in building scalable web and mobile applications using React, Next.js, Node.js, React Native, PostgreSQL, and MongoDB.",
+      "Beyond traditional full-stack development, I'm passionate about AI engineering and Agentic AI systems. I enjoy designing intelligent applications powered by LLMs, RAG pipelines, AI agents, and real-time communication technologies, combining modern software engineering with practical AI solutions.",
+      "I focus on building maintainable, scalable, and high-performance systems with clean architecture and thoughtful developer experience. Whether I'm designing APIs, optimizing databases, implementing event-driven services, or developing AI-powered workflows, I aim to create software that's reliable, efficient, and easy to evolve."
     ]
   },
   "skills": {
     "label": "// skills",
     "categories": [
       { "name": "Languages", "items": ["JavaScript", "TypeScript", "SQL"] },
-      { "name": "Frameworks", "items": ["React.js", "Next.js", "Node.js", "Nest.js", "React Native"] },
-      { "name": "Data & Infra", "items": ["PostgreSQL", "MongoDB", "AWS (Lambda, API Gateway, S3, EC2)", "Docker"] },
-      { "name": "Focus areas", "items": ["Full-stack web apps", "Cross-platform mobile", "API design"] }
+      {
+        "name": "Frameworks",
+        "items": ["React.js", "Next.js", "Node.js", "Nest.js", "React Native"]
+      },
+      {
+        "name": "Data & Infra",
+        "items": [
+          "PostgreSQL",
+          "MongoDB",
+          "AWS (Lambda, API Gateway, S3, EC2)",
+          "Docker"
+        ]
+      },
+      {
+        "name": "AI & Agentic Systems",
+        "items": [
+          "LLMs",
+          "Agentic AI",
+          "RAG",
+          "LangChain",
+          "LangGraph",
+          "MCP",
+          "Prompt Engineering",
+          "AI Workflows"
+        ]
+      },
+      {
+        "name": "Focus areas",
+        "items": [
+          "Full-stack web apps",
+          "Cross-platform mobile apps",
+          "API design",
+          "Agentic AI development"
+        ]
+      }
     ]
   },
   "projects": {
@@ -41,20 +73,21 @@
     "items": [
       {
         "name": "FAM Sports Nutrition Learning Platform",
-        "year": "2024 — 2026",
+        "year": "Nov 2024 — May 2026",
         "photo": "",
         "description": "An interactive learning platform training professional sports nutrition advisors through structured courses and one-on-one consultations, across web and mobile.",
         "outcomes": [
-          "Built the admin and customer-facing web apps with Next.js and Node.js, plus a cross-platform mobile app with React Native for iOS and Android.",
-          "Shipped an AI-powered chat feature and a consultation module connecting users with professional nutritionists.",
-          "Implemented multiple Stripe payment and subscription flows for platform access."
+          "Developed and maintained both the admin and customer-facing web apps, plus built a cross-platform mobile app for iOS and Android.",
+          "Shipped an AI-powered chat feature to assist users with guidance and interactive learning.",
+          "Built consultation modules to facilitate communication between users and advisors.",
+          "Implemented multiple payment and subscription flows, enabling flexible access to platform content."
         ],
         "tech": ["Next.js", "Node.js", "React Native", "Stripe"],
         "link": "https://apps.apple.com/jp/app/fam-sports-and-nutrition-lab/id6745589509"
       },
       {
         "name": "KriyaKarak",
-        "year": "2024",
+        "year": "Jan 2024 — Dec 2024",
         "photo": "",
         "description": "A secure platform unifying service providers from across Bangladesh onto a single digital marketplace.",
         "outcomes": [
@@ -63,6 +96,30 @@
         ],
         "tech": ["Next.js", "Node.js"],
         "link": "https://kriyakarak.com/"
+      },
+      {
+        "name": "Mapage",
+        "year": "Oct 2022 — Sep 2023",
+        "photo": "",
+        "description": "A branding platform for freelance beauticians in Japan, enabling them to build a personal brand and offer beauty services to customers",
+        "outcomes": [
+          "Developed and maintained customer-facing web app, plus built a cross-platform mobile app for iOS and Android.",
+          "Implemented the stylist portfolio management module, allowing beauticians to showcase their work and personal brand effectively."
+        ],
+        "tech": ["Next.js", "Node.js", "React Native"],
+        "link": "https://apps.apple.com/jp/app/mapage/id1660252420"
+      },
+      {
+        "name": "Gorillamove: Grocery delivery",
+        "year": "Jan 2022 — Sep 2022",
+        "photo": "",
+        "description": "An instant grocery delivery service in Bangladesh, commited to effectively serving customers and the planet a little better every day.",
+        "outcomes": [
+          "Owned total mobile frontend architecture to design, develop, and integrate core features and functionalities",
+          "Implemented payment gateway systems on the frontend."
+        ],
+        "tech": ["React Native"],
+        "link": "https://play.google.com/store/apps/details?id=com.gorillamove&hl=en"
       }
     ]
   },
@@ -76,6 +133,7 @@
         "impact": [
           "Built scalable full-stack applications with Next.js, Node.js, MongoDB, and PostgreSQL, including complex aggregation pipelines and query optimization.",
           "Designed event-driven workflows using AWS Lambda, WebSockets, and Redis for real-time features and background processing.",
+          "Designed and developed Agentic AI solutions leveraging LLMs, RAG, LangChain,LangGraph, MCP, and intelligent automation to solve complex business problems.",
           "Developed cross-platform mobile apps with React Native and containerized services with Docker for consistent deployments."
         ]
       },
@@ -103,12 +161,15 @@
   },
   "contact": {
     "label": "// contact",
-    "statement": "Open to senior full-stack engineering roles.",
+    "statement": "Open to software engineering roles.",
     "email": "ayubur.rahaman161@gmail.com",
     "links": [
       { "label": "GitHub", "href": "https://github.com/Ayubur" },
       { "label": "LinkedIn", "href": "https://www.linkedin.com/in/ayubur" },
-      { "label": "Résumé (PDF)", "href": "https://drive.google.com/file/d/1hgGPmcw7yVvU34VR8k1IamSU3dDFl9yj/view?usp=sharing" }
+      {
+        "label": "Résumé (PDF)",
+        "href": "https://drive.google.com/file/d/1hgGPmcw7yVvU34VR8k1IamSU3dDFl9yj/view?usp=sharing"
+      }
     ]
   },
   "footer": {
