@@ -30,10 +30,20 @@
   "skills": {
     "label": "// skills",
     "categories": [
-      { "name": "Languages", "items": ["JavaScript", "TypeScript", "SQL"] },
+      {
+        "name": "Languages",
+        "items": ["JavaScript", "TypeScript", "Python", "SQL"]
+      },
       {
         "name": "Frameworks",
-        "items": ["React.js", "Next.js", "Node.js", "Nest.js", "React Native"]
+        "items": [
+          "React.js",
+          "Next.js",
+          "Node.js",
+          "Nest.js",
+          "FastAPI",
+          "React Native"
+        ]
       },
       {
         "name": "Data & Infra",
@@ -48,10 +58,10 @@
         "name": "AI & Agentic Systems",
         "items": [
           "LLMs",
-          "Agentic AI",
           "RAG",
           "LangChain",
           "LangGraph",
+          "LlamaIndex",
           "MCP",
           "Prompt Engineering",
           "AI Workflows"
@@ -74,7 +84,7 @@
       {
         "name": "FAM Sports Nutrition Learning Platform",
         "year": "Nov 2024 — May 2026",
-        "photo": "",
+        "photo": "assets/projects/fam-icon.png",
         "description": "An interactive learning platform training professional sports nutrition advisors through structured courses and one-on-one consultations, across web and mobile.",
         "outcomes": [
           "Developed and maintained both the admin and customer-facing web apps, plus built a cross-platform mobile app for iOS and Android.",
@@ -88,7 +98,7 @@
       {
         "name": "KriyaKarak",
         "year": "Jan 2024 — Dec 2024",
-        "photo": "",
+        "photo": "assets/projects/kriyakarak-icon.png",
         "description": "A secure platform unifying service providers from across Bangladesh onto a single digital marketplace.",
         "outcomes": [
           "Owned the Expert Portfolio Module end-to-end — frontend architecture, UI, and feature integration.",
@@ -100,7 +110,7 @@
       {
         "name": "Mapage",
         "year": "Oct 2022 — Sep 2023",
-        "photo": "",
+        "photo": "assets/projects/mapage-icon.png",
         "description": "A branding platform for freelance beauticians in Japan, enabling them to build a personal brand and offer beauty services to customers",
         "outcomes": [
           "Developed and maintained customer-facing web app, plus built a cross-platform mobile app for iOS and Android.",
@@ -112,7 +122,7 @@
       {
         "name": "Gorillamove: Grocery delivery",
         "year": "Jan 2022 — Sep 2022",
-        "photo": "",
+        "photo": "assets/projects/gorillamove-icon.png",
         "description": "An instant grocery delivery service in Bangladesh, commited to effectively serving customers and the planet a little better every day.",
         "outcomes": [
           "Owned total mobile frontend architecture to design, develop, and integrate core features and functionalities",
