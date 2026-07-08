@@ -355,10 +355,8 @@ a {
 .project-thumb {
   width: 96px;
   height: 96px;
-  border: 1px solid var(--hairline);
-  border-radius: 2px;
   overflow: hidden;
-  background: #ece9e1;
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
