@@ -50,7 +50,7 @@ function renderHero(data) {
   actions.appendChild(el("a", { class: "btn btn-secondary", href: hero.secondaryCta.href, text: hero.secondaryCta.label }));
   section.appendChild(actions);
 
-  section.appendChild(el("p", { class: "hero-meta", text: `${hero.location} · ${hero.year}` }));
+  section.appendChild(el("p", { class: "hero-meta", text: `${hero.location}` }));
 }
 
 function renderAbout(data) {
