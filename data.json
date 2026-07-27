@@ -22,7 +22,7 @@
     "label": "// about",
     "photo": "assets/profile/profile.jpg",
     "paragraphs": [
-      "I'm a Full Stack Software Engineer based in Dhaka, Bangladesh, currently working as a Software Engineer II at ShellBeeHaken Ltd. I specialize in building scalable web and mobile applications using React, Next.js, Node.js, React Native, PostgreSQL, and MongoDB.",
+      "I'm a Full Stack Software Engineer based in Dhaka, Bangladesh, currently working as a Software Engineer II at ShellBeeHaken Ltd. I specialize in building scalable web and mobile applications using React, Next.js, Node.js, FastAPI, React Native, PostgreSQL, and MongoDB.",
       "Beyond traditional full-stack development, I'm passionate about AI engineering and Agentic AI systems. I enjoy designing intelligent applications powered by LLMs, RAG pipelines, AI agents, and real-time communication technologies, combining modern software engineering with practical AI solutions.",
       "I focus on building maintainable, scalable, and high-performance systems with clean architecture and thoughtful developer experience. Whether I'm designing APIs, optimizing databases, implementing event-driven services, or developing AI-powered workflows, I aim to create software that's reliable, efficient, and easy to evolve."
     ]
@@ -141,7 +141,7 @@
         "role": "Software Engineer II",
         "company": "ShellBeeHaken Ltd.",
         "impact": [
-          "Built scalable full-stack applications with Next.js, Node.js, MongoDB, and PostgreSQL, including complex aggregation pipelines and query optimization.",
+          "Built scalable full-stack applications with Next.js, Node.js, FastAPI, MongoDB and PostgreSQL, including complex aggregation pipelines and query optimization.",
           "Designed event-driven workflows using AWS Lambda, WebSockets, and Redis for real-time features and background processing.",
           "Designed and developed Agentic AI solutions leveraging LLMs, RAG, LangChain,LangGraph, MCP, and intelligent automation to solve complex business problems.",
           "Developed cross-platform mobile apps with React Native and containerized services with Docker for consistent deployments."
