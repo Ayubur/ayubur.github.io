@@ -2,19 +2,37 @@
   "nav": {
     "name": "AYUBUR RAHAMAN",
     "links": [
-      { "label": "About", "href": "#about" },
-      { "label": "Skills", "href": "#skills" },
-      { "label": "Work", "href": "#projects" },
-      { "label": "Contact", "href": "#contact" }
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Skills",
+        "href": "#skills"
+      },
+      {
+        "label": "Work",
+        "href": "#projects"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
     ]
   },
   "hero": {
     "label": "// hello",
     "name": "Md. Ayubur Rahaman",
-    "role": "Software Engineer",
+    "role": "Senior Software Engineer",
     "statement": "I build high-performance web, mobile, and AI-powered applications focused on scalability, seamless user experiences, and intelligent automation.",
-    "primaryCta": { "label": "View work", "href": "#projects" },
-    "secondaryCta": { "label": "Contact", "href": "#contact" },
+    "primaryCta": {
+      "label": "View work",
+      "href": "#projects"
+    },
+    "secondaryCta": {
+      "label": "Contact",
+      "href": "#contact"
+    },
     "location": "Dhaka, Bangladesh",
     "year": "2026"
   },
@@ -22,9 +40,9 @@
     "label": "// about",
     "photo": "assets/profile/profile.jpg",
     "paragraphs": [
-      "I'm a Full Stack Software Engineer based in Dhaka, Bangladesh, currently working as a Software Engineer II at ShellBeeHaken Ltd. I specialize in building scalable web and mobile applications using React, Next.js, Node.js, React Native, PostgreSQL, and MongoDB.",
-      "Beyond traditional full-stack development, I'm passionate about AI engineering and Agentic AI systems. I enjoy designing intelligent applications powered by LLMs, RAG pipelines, AI agents, and real-time communication technologies, combining modern software engineering with practical AI solutions.",
-      "I focus on building maintainable, scalable, and high-performance systems with clean architecture and thoughtful developer experience. Whether I'm designing APIs, optimizing databases, implementing event-driven services, or developing AI-powered workflows, I aim to create software that's reliable, efficient, and easy to evolve."
+      "I'm a Senior Software Engineer based in Dhaka, Bangladesh, currently working as a Software Engineer II at ShellBeeHaken Ltd., with 6 years of experience building scalable web and mobile applications using React, Next.js, Node.js, FastAPI, React Native, PostgreSQL, and MongoDB.",
+      "Beyond traditional full-stack development, I'm passionate about AI engineering and Agentic AI systems. I design and deliver intelligent applications powered by LLMs, RAG pipelines, AI agents (LangChain, LangGraph, LlamaIndex, MCP), and real-time communication technologies — combining modern software engineering with practical AI solutions.",
+      "I focus on building maintainable, scalable, and high-performance systems with clean architecture and thoughtful developer experience. I also mentor junior engineers through code reviews, pair programming, and design discussions, and lead technical scoping for feature teams."
     ]
   },
   "skills": {
@@ -51,7 +69,8 @@
           "PostgreSQL",
           "MongoDB",
           "AWS (Lambda, API Gateway, S3, EC2)",
-          "Docker"
+          "Docker",
+          "Git"
         ]
       },
       {
@@ -73,7 +92,8 @@
           "Full-stack web apps",
           "Cross-platform mobile apps",
           "API design",
-          "Agentic AI development"
+          "Agentic AI development",
+          "Mentoring & code review leadership"
         ]
       }
     ]
@@ -83,16 +103,15 @@
     "items": [
       {
         "name": "FAM Sports Nutrition Learning Platform",
-        "year": "Nov 2024 — May 2026",
+        "year": "Nov 2024 — Mar 2026",
         "photo": "assets/projects/fam-icon.png",
         "description": "An interactive learning platform training professional sports nutrition advisors through structured courses and one-on-one consultations, across web and mobile.",
         "outcomes": [
-          "Developed and maintained both the admin and customer-facing web apps, plus built a cross-platform mobile app for iOS and Android.",
-          "Shipped an AI-powered chat feature to assist users with guidance and interactive learning.",
-          "Built consultation modules to facilitate communication between users and advisors.",
-          "Implemented multiple payment and subscription flows, enabling flexible access to platform content."
+          "Developed and maintained both the admin and customer-facing web apps (Next.js, Node.js, FastAPI), plus built a cross-platform mobile app for iOS and Android.",
+          "Shipped an AI-powered chat feature providing real-time learning guidance and user support, alongside consultation modules connecting users with professional nutritionists.",
+          "Implemented end-to-end Stripe payment and subscription flows, enabling flexible content access and recurring revenue for 1K+ subscribers."
         ],
-        "tech": ["Next.js", "Node.js", "React Native", "Stripe"],
+        "tech": ["Next.js", "Node.js", "FastAPI", "React Native", "Stripe"],
         "link": "https://apps.apple.com/jp/app/fam-sports-and-nutrition-lab/id6745589509"
       },
       {
@@ -102,7 +121,7 @@
         "description": "A secure platform unifying service providers from across Bangladesh onto a single digital marketplace.",
         "outcomes": [
           "Owned the Expert Portfolio Module end-to-end — frontend architecture, UI, and feature integration.",
-          "Improved service scheduling and booking workflows in the Booking Module."
+          "Improved service scheduling and booking workflows in the Booking Module for 5K+ service providers."
         ],
         "tech": ["Next.js", "Node.js"],
         "link": "https://kriyakarak.com/"
@@ -141,10 +160,12 @@
         "role": "Software Engineer II",
         "company": "ShellBeeHaken Ltd.",
         "impact": [
-          "Built scalable full-stack applications with Next.js, Node.js, MongoDB, and PostgreSQL, including complex aggregation pipelines and query optimization.",
-          "Designed event-driven workflows using AWS Lambda, WebSockets, and Redis for real-time features and background processing.",
-          "Designed and developed Agentic AI solutions leveraging LLMs, RAG, LangChain,LangGraph, MCP, and intelligent automation to solve complex business problems.",
-          "Developed cross-platform mobile apps with React Native and containerized services with Docker for consistent deployments."
+          "Architected and shipped scalable full-stack applications with Next.js, Node.js, FastAPI, MongoDB, and PostgreSQL, including complex aggregation pipelines and query optimization.",
+          "Designed and delivered Agentic AI solutions leveraging LLMs, RAG, LangChain, LangGraph, LlamaIndex, and MCP — automating customer support and evaluation systems, reducing manual processing effort by 20% for 1K+ users.",
+          "Developed cross-platform mobile apps with React Native, shipped to both iOS and Android from a single codebase with 5K+ downloads.",
+          "Built event-driven workflows using AWS Lambda, WebSockets, and Redis, sustaining 10K concurrent connections for real-time features and background processing.",
+          "Containerized services with Docker for consistent development and production deployments.",
+          "Mentor 12+ junior engineers through code reviews, pair programming, and design discussions; lead technical scoping for 7-person feature teams."
         ]
       },
       {
@@ -152,9 +173,11 @@
         "role": "Software Engineer",
         "company": "Gononet Limited",
         "impact": [
-          "Designed and built the UI for the organization's ERP system in Angular, and its e-commerce platform in React.js and Next.js.",
-          "Built a cross-platform mobile application with React Native.",
-          "Developed backend services in PHP with optimized PostgreSQL databases and queries."
+          "Created reusable, usability-driven UI component patterns adopted across 3 company web properties, cutting new page development time by 20%.",
+          "Designed and supported the UI for the organization's ERP system in Angular, serving 5K+ internal users across departments.",
+          "Built and integrated the company's e-commerce platform using React.js and Next.js, supporting 100K monthly visitors.",
+          "Built and shipped a cross-platform mobile application with React Native, released on both app stores.",
+          "Developed backend services in PHP with optimized PostgreSQL schemas and queries."
         ]
       }
     ]
@@ -174,11 +197,17 @@
     "statement": "Open to software engineering roles.",
     "email": "ayubur.rahaman161@gmail.com",
     "links": [
-      { "label": "GitHub", "href": "https://github.com/Ayubur" },
-      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/ayubur" },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/Ayubur"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/ayubur"
+      },
       {
         "label": "Résumé (PDF)",
-        "href": "https://drive.google.com/file/d/1f_UU74jZw_zoJoGVdimeIjhMsuQ5TABn/view?usp=sharing"
+        "href": "https://drive.google.com/file/d/1R-tQmktmWGpLtYzJuzjNDi0WG2i5jpxL/view?usp=sharing"
       }
     ]
   },
