@@ -103,7 +103,6 @@ function renderProjects(data) {
     nameHeading.appendChild(el("a", { class: "project-name-link", href: proj.link, text: proj.name }));
     header.appendChild(nameHeading);
     const meta = el("div", { class: "project-meta" });
-    meta.appendChild(el("span", { text: proj.year }));
     meta.appendChild(el("a", { class: "project-link", href: proj.link, text: "→" }));
     header.appendChild(meta);
     body.appendChild(header);
