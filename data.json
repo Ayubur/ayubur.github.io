@@ -40,7 +40,7 @@
     "label": "// about",
     "photo": "assets/profile/profile.jpg",
     "paragraphs": [
-      "I'm a Senior Software Engineer based in Dhaka, Bangladesh, currently working as a Software Engineer II at ShellBeeHaken Ltd., with 6 years of experience building scalable web and mobile applications using React, Next.js, Node.js, FastAPI, React Native, PostgreSQL, and MongoDB.",
+      "I'm a Senior Software Engineer based in Dhaka, Bangladesh, currently working as a Software Engineer-II at ShellBeeHaken Ltd., with 6 years of experience building scalable web and mobile applications using React, Next.js, Node.js, FastAPI, React Native, PostgreSQL, and MongoDB.",
       "Beyond traditional full-stack development, I'm passionate about AI engineering and Agentic AI systems. I design and deliver intelligent applications powered by LLMs, RAG pipelines, AI agents (LangChain, LangGraph, LlamaIndex, MCP), and real-time communication technologies — combining modern software engineering with practical AI solutions.",
       "I focus on building maintainable, scalable, and high-performance systems with clean architecture and thoughtful developer experience. I also mentor junior engineers through code reviews, pair programming, and design discussions, and lead technical scoping for feature teams."
     ]
@@ -81,9 +81,7 @@
           "LangChain",
           "LangGraph",
           "LlamaIndex",
-          "MCP",
-          "Prompt Engineering",
-          "AI Workflows"
+          "Prompt Engineering"
         ]
       },
       {
@@ -111,7 +109,15 @@
           "Shipped an AI-powered chat feature providing real-time learning guidance and user support, alongside consultation modules connecting users with professional nutritionists.",
           "Implemented end-to-end Stripe payment and subscription flows, enabling flexible content access and recurring revenue for 1K+ subscribers."
         ],
-        "tech": ["Next.js", "Node.js", "FastAPI", "React Native", "Stripe"],
+        "tech": [
+          "Next.js",
+          "Node.js",
+          "FastAPI",
+          "React Native",
+          "Stripe",
+          "RAG",
+          "AI Agents"
+        ],
         "link": "https://apps.apple.com/jp/app/fam-sports-and-nutrition-lab/id6745589509"
       },
       {
@@ -120,10 +126,11 @@
         "photo": "assets/projects/kriyakarak-icon.png",
         "description": "A secure platform unifying service providers from across Bangladesh onto a single digital marketplace.",
         "outcomes": [
+          "Automated customer support through AI integration and implemented personalized AI Assistants for both Buyers and Experts.",
           "Owned the Expert Portfolio Module end-to-end — frontend architecture, UI, and feature integration.",
           "Improved service scheduling and booking workflows in the Booking Module for 5K+ service providers."
         ],
-        "tech": ["Next.js", "Node.js"],
+        "tech": ["Next.js", "Node.js", "RAG", "AI Agents", "Google Gemini"],
         "link": "https://kriyakarak.com/"
       },
       {
@@ -157,14 +164,14 @@
     "items": [
       {
         "range": "2022 — Now",
-        "role": "Software Engineer II",
+        "role": "Software Engineer-II",
         "company": "ShellBeeHaken Ltd.",
         "impact": [
-          "Architected and shipped scalable full-stack applications with Next.js, Node.js, FastAPI, MongoDB, and PostgreSQL, including complex aggregation pipelines and query optimization.",
-          "Designed and delivered Agentic AI solutions leveraging LLMs, RAG, LangChain, LangGraph, LlamaIndex, and MCP — automating customer support and evaluation systems, reducing manual processing effort by 20% for 1K+ users.",
-          "Developed cross-platform mobile apps with React Native, shipped to both iOS and Android from a single codebase with 5K+ downloads.",
-          "Built event-driven workflows using AWS Lambda, WebSockets, and Redis, sustaining 10K concurrent connections for real-time features and background processing.",
-          "Containerized services with Docker for consistent development and production deployments.",
+          "Architected and delivered scalable full-stack applications using Next.js, Node.js, FastAPI, MongoDB, and PostgreSQL, optimizing complex aggregation pipelines and database queries for performance and maintainability.",
+          "Designed and implemented end-to-end RAG pipelines using LLMs, vector embeddings, semantic search, and LangChain to power AI-driven customer support and evaluation systems, improving knowledge retrieval and automating workflows for 1K+ users.",
+          "Developed and integrated cross-platform mobile applications with React Native, shipping to both iOS and Android from a single codebase with 5K+ downloads / <0.5% crash-free rate.",
+          "Developed event-driven and real-time systems using AWS Lambda, WebSockets, and Redis, supporting up to 10K concurrent connections and asynchronous background processing.",
+          "Standardized development and deployment workflows by containerizing application services with Docker, improving environment consistency across development and production.",
           "Mentor 12+ junior engineers through code reviews, pair programming, and design discussions; lead technical scoping for 7-person feature teams."
         ]
       },
@@ -207,7 +214,7 @@
       },
       {
         "label": "Résumé (PDF)",
-        "href": "https://drive.google.com/file/d/1R-tQmktmWGpLtYzJuzjNDi0WG2i5jpxL/view?usp=sharing"
+        "href": "https://drive.google.com/file/d/1YurlWiY_cvC96vifPb3cpwJiK5mAeVVN/view?usp=sharing"
       }
     ]
   },
