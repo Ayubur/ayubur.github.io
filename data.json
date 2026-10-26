@@ -100,6 +100,19 @@
     "label": "// projects",
     "items": [
       {
+        "name": "KriyaKarak",
+        "year": "Jan 2024 — Dec 2024",
+        "photo": "assets/projects/kriyakarak-icon.png",
+        "description": "A secure platform unifying service providers from across Bangladesh onto a single digital marketplace.",
+        "outcomes": [
+          "Automated AI-powered customer support across web and mobile apps, Facebook Messenger, Instagram DMs, and WhatsApp to handle customer queries.",
+          "Implemented personalized AI assistants for Buyers and Experts to enhance customer support and user engagement.",
+          "Developed AI-powered Profile Optimizer and CV Builder features to help Experts improve their professional profiles and create CVs."
+        ],
+        "tech": ["Next.js", "Node.js", "RAG", "AI Agents", "Google Gemini"],
+        "link": "https://kriyakarak.com/"
+      },
+      {
         "name": "FAM Sports Nutrition Learning Platform",
         "year": "Nov 2024 — Mar 2026",
         "photo": "assets/projects/fam-icon.png",
@@ -119,19 +132,6 @@
           "AI Agents"
         ],
         "link": "https://apps.apple.com/jp/app/fam-sports-and-nutrition-lab/id6745589509"
-      },
-      {
-        "name": "KriyaKarak",
-        "year": "Jan 2024 — Dec 2024",
-        "photo": "assets/projects/kriyakarak-icon.png",
-        "description": "A secure platform unifying service providers from across Bangladesh onto a single digital marketplace.",
-        "outcomes": [
-          "Automated customer support through AI integration and implemented personalized AI Assistants for both Buyers and Experts.",
-          "Owned the Expert Portfolio Module end-to-end — frontend architecture, UI, and feature integration.",
-          "Improved service scheduling and booking workflows in the Booking Module for 5K+ service providers."
-        ],
-        "tech": ["Next.js", "Node.js", "RAG", "AI Agents", "Google Gemini"],
-        "link": "https://kriyakarak.com/"
       },
       {
         "name": "Mapage",
@@ -214,7 +214,7 @@
       },
       {
         "label": "Résumé (PDF)",
-        "href": "https://drive.google.com/file/d/1YurlWiY_cvC96vifPb3cpwJiK5mAeVVN/view?usp=sharing"
+        "href": "https://drive.google.com/file/d/18WXT7KtFYggdSc9uBytbf7l5kU3ZqeWf/view?usp=sharing"
       }
     ]
   },
