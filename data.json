@@ -2,35 +2,23 @@
   "nav": {
     "name": "AYUBUR RAHAMAN",
     "links": [
-      {
-        "label": "About",
-        "href": "#about"
-      },
-      {
-        "label": "Skills",
-        "href": "#skills"
-      },
-      {
-        "label": "Work",
-        "href": "#projects"
-      },
-      {
-        "label": "Contact",
-        "href": "#contact"
-      }
+      { "label": "About", "href": "#about" },
+      { "label": "Engineering", "href": "#skills" },
+      { "label": "Works", "href": "#projects" },
+      { "label": "Contact", "href": "#contact" }
     ]
   },
   "hero": {
     "label": "// hello",
     "name": "Md. Ayubur Rahaman",
-    "role": "Senior Software Engineer",
-    "statement": "I build high-performance web, mobile, and AI-powered applications focused on scalability, seamless user experiences, and intelligent automation.",
+    "role": "Full-Stack Product Engineer",
+    "statement": "I build and scale digital products through thoughtful engineering, product thinking, and AI. From intuitive web and mobile experiences to reliable backend systems, I turn complex problems into impactful product solutions.",
     "primaryCta": {
-      "label": "View work",
+      "label": "Explore works",
       "href": "#projects"
     },
     "secondaryCta": {
-      "label": "Contact",
+      "label": "Get in touch",
       "href": "#contact"
     },
     "location": "Dhaka, Bangladesh",
@@ -40,64 +28,88 @@
     "label": "// about",
     "photo": "assets/profile/profile.jpg",
     "paragraphs": [
-      "I'm a Senior Software Engineer based in Dhaka, Bangladesh, currently working as a Software Engineer-II at ShellBeeHaken Ltd., with 6 years of experience building scalable web and mobile applications using React, Next.js, Node.js, FastAPI, React Native, PostgreSQL, and MongoDB.",
-      "Beyond traditional full-stack development, I'm passionate about AI engineering and Agentic AI systems. I design and deliver intelligent applications powered by LLMs, RAG pipelines, AI agents (LangChain, LangGraph, LlamaIndex, MCP), and real-time communication technologies — combining modern software engineering with practical AI solutions.",
-      "I focus on building maintainable, scalable, and high-performance systems with clean architecture and thoughtful developer experience. I also mentor junior engineers through code reviews, pair programming, and design discussions, and lead technical scoping for feature teams."
+      "I'm a Full-Stack Product Engineer based in Dhaka, Bangladesh, with 6 years of experience building and scaling web and mobile products. I work across the entire product development lifecycle, taking ownership of features from understanding user needs and technical design to implementation, deployment, and continuous improvement.",
+      "My engineering experience spans frontend, backend, mobile, and cloud infrastructure using React, Next.js, Node.js, FastAPI, React Native, PostgreSQL, and MongoDB. I'm particularly interested in building AI-powered products, integrating LLMs, designing RAG pipelines, and developing intelligent agents that solve practical user and business problems.",
+      "I believe great product engineering goes beyond writing code. It requires understanding user needs, making thoughtful technical decisions, building maintainable systems, and taking ownership of outcomes. I also contribute to engineering teams through architecture discussions, technical planning, mentoring, and code reviews."
     ]
   },
   "skills": {
-    "label": "// skills",
+    "label": "// engineering",
     "categories": [
       {
-        "name": "Languages",
-        "items": ["JavaScript", "TypeScript", "Python", "SQL"]
-      },
-      {
-        "name": "Frameworks",
+        "name": "Product Engineering",
         "items": [
-          "React.js",
-          "Next.js",
-          "Node.js",
-          "Nest.js",
-          "FastAPI",
-          "React Native"
+          "End-to-end Feature Ownership",
+          "Product Development",
+          "System Design",
+          "Technical Architecture",
+          "Problem Solving",
+          "Performance Optimization"
         ]
       },
       {
-        "name": "Data & Infra",
+        "name": "Frontend & Mobile",
+        "items": [
+          "JavaScript",
+          "TypeScript",
+          "React.js",
+          "Next.js",
+          "React Native",
+          "Expo",
+          "Redux"
+        ]
+      },
+      {
+        "name": "Backend Engineering",
+        "items": [
+          "Node.js",
+          "Nest.js",
+          "Express.js",
+          "FastAPI",
+          "REST APIs",
+          "WebSockets",
+          "Background Jobs"
+        ]
+      },
+      {
+        "name": "Data & Infrastructure",
         "items": [
           "PostgreSQL",
           "MongoDB",
+          "Redis",
           "AWS (Lambda, API Gateway, S3, EC2)",
           "Docker",
           "Git"
         ]
       },
       {
-        "name": "AI & Agentic Systems",
+        "name": "AI Product Engineering",
         "items": [
           "LLMs",
-          "RAG",
+          "RAG Pipelines",
+          "AI Agents",
           "LangChain",
           "LangGraph",
           "LlamaIndex",
+          "MCP",
           "Prompt Engineering"
         ]
       },
       {
-        "name": "Focus areas",
+        "name": "Engineering Practices",
         "items": [
-          "Full-stack web apps",
-          "Cross-platform mobile apps",
-          "API design",
-          "Agentic AI development",
-          "Mentoring & code review leadership"
+          "API Design",
+          "Database Optimization",
+          "Scalable Architecture",
+          "Code Reviews",
+          "Technical Mentoring",
+          "Agile Collaboration"
         ]
       }
     ]
   },
   "projects": {
-    "label": "// projects",
+    "label": "// selected projects",
     "items": [
       {
         "name": "KriyaKarak",
@@ -109,18 +121,26 @@
           "Implemented personalized AI assistants for Buyers and Experts to enhance customer support and user engagement.",
           "Developed AI-powered Profile Optimizer and CV Builder features to help Experts improve their professional profiles and create CVs."
         ],
-        "tech": ["Next.js", "Node.js", "RAG", "AI Agents", "Google Gemini"],
+        "tech": [
+          "Next.js",
+          "Node.js",
+          "RAG",
+          "AI Agents",
+          "Google Gemini",
+          "React Native"
+        ],
         "link": "https://kriyakarak.com/"
       },
       {
         "name": "FAM Sports Nutrition Learning Platform",
         "year": "Nov 2024 — Mar 2026",
         "photo": "assets/projects/fam-icon.png",
-        "description": "An interactive learning platform training professional sports nutrition advisors through structured courses and one-on-one consultations, across web and mobile.",
+        "description": "A digital learning and consultation platform helping users become professional sports nutrition advisors through structured courses, expert consultations, and subscription-based access across web and mobile.",
         "outcomes": [
-          "Developed and maintained both the admin and customer-facing web apps (Next.js, Node.js, FastAPI), plus built a cross-platform mobile app for iOS and Android.",
-          "Shipped an AI-powered chat feature providing real-time learning guidance and user support, alongside consultation modules connecting users with professional nutritionists.",
-          "Implemented end-to-end Stripe payment and subscription flows, enabling flexible content access and recurring revenue for 1K+ subscribers."
+          "Owned development and maintenance of admin and customer-facing web applications using Next.js, Node.js, and FastAPI, alongside a cross-platform iOS and Android application.",
+          "Shipped AI-powered chat capabilities for real-time learning guidance and user support.",
+          "Developed consultation workflows connecting learners with professional nutritionists.",
+          "Implemented end-to-end Stripe payment and subscription experiences, supporting recurring revenue and flexible content access for 1K+ subscribers."
         ],
         "tech": [
           "Next.js",
@@ -137,22 +157,22 @@
         "name": "Mapage",
         "year": "Oct 2022 — Sep 2023",
         "photo": "assets/projects/mapage-icon.png",
-        "description": "A branding platform for freelance beauticians in Japan, enabling them to build a personal brand and offer beauty services to customers",
+        "description": "A personal branding and service platform for freelance beauticians in Japan, helping professionals showcase their portfolios, establish their brands, and connect with customers.",
         "outcomes": [
-          "Developed and maintained customer-facing web app, plus built a cross-platform mobile app for iOS and Android.",
-          "Implemented the stylist portfolio management module, allowing beauticians to showcase their work and personal brand effectively."
+          "Developed and maintained the customer-facing web application and delivered a cross-platform mobile experience for iOS and Android.",
+          "Owned the stylist portfolio management experience, enabling beauticians to showcase their work and build their professional presence."
         ],
         "tech": ["Next.js", "Node.js", "React Native"],
         "link": "https://apps.apple.com/jp/app/mapage/id1660252420"
       },
       {
-        "name": "Gorillamove: Grocery delivery",
+        "name": "Gorillamove: Grocery Delivery",
         "year": "Jan 2022 — Sep 2022",
         "photo": "assets/projects/gorillamove-icon.png",
-        "description": "An instant grocery delivery service in Bangladesh, commited to effectively serving customers and the planet a little better every day.",
+        "description": "An instant grocery delivery platform in Bangladesh focused on providing convenient shopping and delivery experiences.",
         "outcomes": [
-          "Owned total mobile frontend architecture to design, develop, and integrate core features and functionalities",
-          "Implemented payment gateway systems on the frontend."
+          "Owned the mobile frontend architecture and delivered core customer-facing features and product workflows.",
+          "Integrated payment gateway functionality into the mobile application."
         ],
         "tech": ["React Native"],
         "link": "https://play.google.com/store/apps/details?id=com.gorillamove&hl=en"
@@ -163,16 +183,17 @@
     "label": "// experience",
     "items": [
       {
-        "range": "2022 — Now",
+        "range": "2022 — Present",
         "role": "Software Engineer-II",
         "company": "ShellBeeHaken Ltd.",
         "impact": [
-          "Architected and delivered scalable full-stack applications using Next.js, Node.js, FastAPI, MongoDB, and PostgreSQL, optimizing complex aggregation pipelines and database queries for performance and maintainability.",
+          "Owned and delivered end-to-end product features across web, mobile, and backend systems using Next.js, Node.js, FastAPI, MongoDB, and PostgreSQL, translating product requirements into scalable production-ready solutions.",
           "Designed and implemented end-to-end RAG pipelines using LLMs, vector embeddings, semantic search, and LangChain to power AI-driven customer support and evaluation systems, improving knowledge retrieval and automating workflows for 1K+ users.",
-          "Developed and integrated cross-platform mobile applications with React Native, shipping to both iOS and Android from a single codebase with 5K+ downloads / <0.5% crash-free rate.",
-          "Developed event-driven and real-time systems using AWS Lambda, WebSockets, and Redis, supporting up to 10K concurrent connections and asynchronous background processing.",
+          "Built and shipped cross-platform mobile product experiences using React Native, delivering iOS and Android applications from a single codebase with 5K+ downloads.",
+          "Architected event-driven and real-time product capabilities using AWS Lambda, WebSockets, and Redis, supporting up to 10K concurrent connections and asynchronous background processing.",
+          "Designed and optimized complex MongoDB aggregation pipelines and PostgreSQL queries to improve application performance, scalability, and maintainability.",
           "Standardized development and deployment workflows by containerizing application services with Docker, improving environment consistency across development and production.",
-          "Mentor 12+ junior engineers through code reviews, pair programming, and design discussions; lead technical scoping for 7-person feature teams."
+          "Mentor 12+ junior engineers through code reviews, pair programming, and technical discussions while leading technical scoping and implementation planning for 7-person feature teams."
         ]
       },
       {
@@ -180,11 +201,11 @@
         "role": "Software Engineer",
         "company": "Gononet Limited",
         "impact": [
-          "Created reusable, usability-driven UI component patterns adopted across 3 company web properties, cutting new page development time by 20%.",
-          "Designed and supported the UI for the organization's ERP system in Angular, serving 5K+ internal users across departments.",
-          "Built and integrated the company's e-commerce platform using React.js and Next.js, supporting 100K monthly visitors.",
-          "Built and shipped a cross-platform mobile application with React Native, released on both app stores.",
-          "Developed backend services in PHP with optimized PostgreSQL schemas and queries."
+          "Built reusable, usability-focused UI component patterns adopted across 3 company web properties, reducing new page development time by 20%.",
+          "Developed and maintained the organization's Angular-based ERP user interface, supporting 5K+ internal users across departments.",
+          "Developed and integrated the company's e-commerce platform using React.js and Next.js, supporting 100K monthly visitors.",
+          "Built and shipped a cross-platform mobile application using React Native, delivering customer-facing experiences across iOS and Android.",
+          "Developed backend services using PHP and optimized PostgreSQL schemas and queries to support application requirements."
         ]
       }
     ]
@@ -201,7 +222,7 @@
   },
   "contact": {
     "label": "// contact",
-    "statement": "Open to software engineering roles.",
+    "statement": "Interested in building impactful digital products and solving meaningful engineering challenges. Open to Full-Stack Product Engineer and Senior Software Engineer opportunities.",
     "email": "ayubur.rahaman161@gmail.com",
     "links": [
       {
